@@ -1,0 +1,83 @@
+*
+{
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4c898b; 
+}
+
+.container
+{   
+    background-color: rgb(179, 178, 188);
+    width: 80vw;
+    border-radius: 30px;
+    font-size: 1.2em;
+}
+
+.diaSemana
+{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1vw;
+    padding: 2vw 4vh;
+    align-items: center;
+}
+
+.dias
+{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 90vh;
+    gap: 4vw;
+    padding: 5vh;
+    align-items: center;
+}
+
+#esquerdo,#direito
+{
+    display: inline-block;
+    width: 8vw;
+    height: 8vh;
+    background-color: #4d7576;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    box-shadow: 2px 2px 8px #406061;
+    font-weight: bold;
+    font-size: 1.53em;
+}
+
+.mes
+{
+    padding: 5vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.data
+{
+    font-size: 1.53em;
+}
+
+.dia:hover
+{
+    color: #b6e3da;
+    text-shadow: 2px 2px 8px #133c34;
+}
+
+#esquerdo:hover,#direito:hover
+{
+    color: #b6e3da;
+}
+
+.data:hover
+{
+    color: #b6e3da;
+}
